@@ -1,11 +1,10 @@
-
 program main
   
   use mod_spalart_allmaras_verification
 
   implicit none
 
-    integer, parameter :: grid = 2
+    integer, parameter :: grid = 5
     integer, parameter :: nt = 10 * 2 **(grid-1)
     integer, parameter :: nx = 10 * 2 **(grid-1)
     integer, parameter :: ny = 20 * 2 **(grid-1)
@@ -14,4 +13,3 @@ program main
     call verify_SA_equation_code(nx, ny, dt)
     
 end program
-
