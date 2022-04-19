@@ -78,7 +78,7 @@ module mod_spalart_allmaras_verification
     integer :: it
     integer :: nitm    = 10
     real(8) :: tol     = 1.d-4
-    integer :: nitmax  = 3000
+    integer :: nitmax  = 300000
     real(8) :: normtol = 1.D-14
     real(8) :: norm0   = 1.d0
     real(8) :: norm1   = 1.d0
@@ -160,7 +160,7 @@ module mod_spalart_allmaras_verification
       ! Calculating the norm of the error
       norm1 = normL2(nx, ny, phi-phiAS)
 
-      write(*,*) norm1
+      write(*,*) it, norm1-norm0, norm1 
 
       if ( abs(norm1-norm0) < normtol ) exit
 

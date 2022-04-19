@@ -4,7 +4,7 @@ program main
 
   implicit none
 
-    integer, parameter :: grid = 5
+    integer, parameter :: grid = 8
     integer, parameter :: nt = 10 * 2 **(grid-1)
     integer, parameter :: nx = 10 * 2 **(grid-1)
     integer, parameter :: ny = 20 * 2 **(grid-1)
