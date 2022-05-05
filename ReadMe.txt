@@ -1,9 +1,9 @@
-========================================================================
-    Fortran Console Application : "Aux code - Spalart Allmaras" Project Overview
-========================================================================
+============================================================================================================================
+    Fortran Console Application : "Spalart-Allmaras auxiliary code for code verification purposes (SA_VV)" Project Overview
+============================================================================================================================
 
 The Intel Fortran Console Application Wizard has created this 
-"Aux code - Spalart Allmaras" project for you as a starting point.
+"Spalart-Allmaras auxiliary code for code verification purposes (SA_VV)" project for you as a starting point.
 
 This file contains a summary of what you will find in each of the files 
 that make up your project.
